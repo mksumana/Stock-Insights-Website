@@ -1,3 +1,4 @@
 # Stock-Insights-Website
 Web tech project
-hi
+Sem 3 project
+-Sumana, Nandini, Madhumita
