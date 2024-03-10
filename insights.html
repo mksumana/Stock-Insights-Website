@@ -1,0 +1,120 @@
+
+<head>
+    <title>Insights</title>
+    <link rel="stylesheet" href="insights.css">
+</head>
+  
+
+<div class="sidebar">
+  <fieldset class="f1"><a href="home.html"><img src="home.png" height="22px" width="25px" ></img>Home</a></fieldset>
+  <fieldset class="f1"><a href="portfolio.html"><img src="download.png" height="26px" width="21px" ></img>Watchlist</a></fieldset>    
+</div>
+    
+<!-- Page content -->
+<div class="content">
+  <h2>INSIGHTS</h2><!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
+    {
+    "feedMode": "market",
+    "market": "stock",
+    "colorTheme": "light",
+    "isTransparent": false,
+    "displayMode": "regular",
+    "width": "100%",
+    "height": "100%",
+    "locale": "en"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+
+  <h2>STOCKS OVERVIEW</h2>
+  <!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container1">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+    {
+    "symbols": [
+      [
+        "NASDAQ:AAPL|1D|INR"
+      ],
+      
+      [
+        "NASDAQ:MSFT|1D|INR"
+      ],
+      [
+        "NASDAQ:TSLA|1D|INR"
+      ],
+      [
+        "NASDAQ:NVDA|1D|INR"
+      ],
+      [
+        "NASDAQ:AMZN|1D|INR"
+      ],
+      [
+        "NASDAQ:AMD|1D|INR"
+      ],
+      [
+        "NASDAQ:META|1D|INR"
+      ],
+      [
+        "NASDAQ:NFLX|1D|INR"
+      ],
+      [
+        "NASDAQ:GOOGL|1D|INR"
+      ],
+      [
+        "NSE:HDFCBANK|1D|INR"
+      ],
+      [
+        "NSE:RELIANCE|1D|INR"
+      ],
+      [
+        "NSE:TATAMOTORS|1D|INR"
+      ],
+      [
+        "NYSE:MCD|1D|INR"
+      ]
+    ],
+    "chartOnly": false,
+    "width": "100%",
+    "height": "100%",
+    "locale": "en",
+    "colorTheme": "light",
+    "autosize": true,
+    "showVolume": false,
+    "showMA": false,
+    "hideDateRanges": false,
+    "hideMarketStatus": false,
+    "hideSymbolLogo": false,
+    "scalePosition": "right",
+    "scaleMode": "Normal",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+    "fontSize": "10",
+    "noTimeScale": false,
+    "valuesTracking": "1",
+    "changeMode": "price-and-percent",
+    "chartType": "area",
+    "maLineColor": "#2962FF",
+    "maLineWidth": 1,
+    "maLength": 9,
+    "lineWidth": 2,
+    "lineType": 0,
+    "dateRanges": [
+      "1d|1",
+      "1m|30",
+      "3m|60",
+      "12m|1D",
+      "60m|1W",
+      "all|1M"
+    ]
+  }
+    </script>
+  </div>
+<!-- TradingView Widget END -->
+ 
+</div>

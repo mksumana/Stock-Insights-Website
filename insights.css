@@ -1,0 +1,51 @@
+.sidebar 
+{
+  width: 220px;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-size: 18px;
+}
+  
+/* Sidebar links */
+.sidebar a 
+{
+  display: block;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;  font-size: 16px;
+  align-items: center;
+  font-size: 18px;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover 
+{
+  background-color: #555555;
+  color: white;
+}
+
+div.content 
+{
+  margin-left: 220px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+  overflow: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+img
+{
+  padding-right: 15px;
+}
+
+fieldset.f1
+{
+  border-width: 0px;
+}
